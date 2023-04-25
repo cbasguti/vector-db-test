@@ -1,6 +1,6 @@
 # Vector DB Test
 
-A brief description of the project.
+This is a small program that allows you to store documents or text snippets and analyze their similarity to a question input to offer the appropriate answer.
 
 ## Getting Started
 
