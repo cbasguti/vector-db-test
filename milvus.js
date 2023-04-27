@@ -6,6 +6,7 @@ import { stdin as input, stdout as output } from 'node:process';
 
 dotenv.config();
 
+// Just run ONCE to create a collection
 // text sample from Godel, Escher, Bach
 /* const storeVectors = await Milvus.fromTexts(
   [
