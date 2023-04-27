@@ -55,7 +55,7 @@ const vectorStore = await PineconeStore.fromExistingIndex(
 
 /* Search the vector DB independently with meta filters */
 const results = await vectorStore.similaritySearch("pinecone", 1, {
-  foo: "bar",
+  baz: "qux",
 });
 
 const rl = readline.createInterface({ input, output });
